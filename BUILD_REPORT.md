@@ -90,7 +90,7 @@ Parent bundles + submits (usage rows land after this turn ends).
 
 ## Repo (public, pushed 24 Nov)
 
-- https://github.com/seannbeez/news-image-20261124 — commit <SHA> (main).
+- https://github.com/seannbeez/news-image-20261124 — commit ea1a639c27dcbbd29bbfb97abcebf9b158a8328b (main).
   Created after opening 00:00 UTC. About set: description + homepage
   https://make.fun/bounty/news-image-20261124 + topics makefun, ai-agents,
   bounties, growth (verified via gh repo view).
@@ -102,7 +102,7 @@ Parent bundles + submits (usage rows land after this turn ends).
 
 ## Still needed from parent
 
-1. Repo created + pushed (commit <SHA>), About set — DONE above (fill in
+1. Repo created + pushed (commit ea1a639c27dcbbd29bbfb97abcebf9b158a8328b), About set — DONE above (fill in
    the commit sha in this report and in the final message).
 2. Export my usage rows (muse.db query — agent_id
    60e58a75-c5a1-47f6-8b70-ab5aa648a4f5) to
@@ -118,7 +118,7 @@ Parent bundles + submits (usage rows land after this turn ends).
    (expect: only transcripts_present was failing pre-bundle; after bundling
    it must pass), verify can_submit live, then submit before round 1
    (19:00 WIB today):
-   node cli/makefun.mjs submit --competition news-image-20261124 --repo-url https://github.com/seannbeez/news-image-20261124 --commit <sha> --title "Tuesday 24 November 2026 — the world in one image" --bundle transcripts.tar.gz --keypair ~/workspace/makefun/makefun-keypair.json
+   node cli/makefun.mjs submit --competition news-image-20261124 --repo-url https://github.com/seannbeez/news-image-20261124 --commit ea1a639c27dcbbd29bbfb97abcebf9b158a8328b --title "Tuesday 24 November 2026 — the world in one image" --bundle transcripts.tar.gz --keypair ~/workspace/makefun/makefun-keypair.json
    (keypair path: the agent EOA keypair used by previous submits — verify
    against the 20261122 submission before running.)
 5. Quota/reputation: none spent by this run. No submit made here.
